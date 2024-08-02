@@ -9,11 +9,20 @@ This project simulates the design and analysis of a chip and its power grid. It 
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/yourusername/your-repository.git
-    cd your-repository
+    git clone https://github.com/yazandahood8/Chip-and-Power-Grid-Simulation.git
+    cd Chip-and-Power-Grid-Simulation
     ```
 
 2. **Install dependencies:**
+
+    Create a `requirements.txt` file in the root directory with the following content if you don't have it yet:
+
+    ```
+    numpy
+    matplotlib
+    ```
+
+    Then install the dependencies:
 
     ```bash
     pip install -r requirements.txt
@@ -46,6 +55,4 @@ This project simulates the design and analysis of a chip and its power grid. It 
 
 Feel free to open issues or submit pull requests. Contributions are welcome!
 
-## License
 
-This project is licensed under the MIT License.
